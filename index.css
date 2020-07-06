@@ -1,0 +1,45 @@
+@charset "UTF8";
+
+
+  h1 {
+      font-family: arial;
+      font-size: 3em;
+      color: blue;
+      text-shadow: 2px 2px 2px black;  
+    }
+h2 {
+      font-style:normal;
+      font-size: 2em;
+      color: #27B169; 
+      }
+
+p{
+      font-family: 'Fjalla One', sans-serif;
+      text-align: justify;
+      text-indent: 50px;
+
+
+    }  
+
+button{
+      background-color: #87DF0E;
+      padding: 15px;
+      border-radius: 20px;
+      border-style: dashed;
+      color:red; 
+    
+    } 
+    
+body {
+      background-color: #F1EB49;
+    }
+
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
+figure.foto-legenda {
+     border: 8px #0BDB84;
+    
+  }

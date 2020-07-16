@@ -1,7 +1,17 @@
 @charset "UTF8";
 
+  /* utility classes */
+  .text-center {
+    text-align: center;
+  }
 
-  h1 {
+  .menu-title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 13px;
+    color: rgb(26, 131, 16);
+  }
+
+  .title {
       font-family: arial;
       font-size: 3em;
       color: blue;
@@ -39,19 +49,24 @@ body {
         background-color: lightblue;
       }
     }
-figure.foto-legenda {
+.foto-legenda {
+    width: 400px;
     position: relative;
      border: 8px solid white;
-     box-shadow: 1px 1px 4px #0BDB84
+     box-shadow: 1px 1px 4px #0BDB84;
+    display:inline-block;
+  }
+
+.foto-legenda img {
+     width: 100%;
     
   }
-figure.foto-legenda img {
-     width: 100%;
-     height: 100%;
-     
 
-  }
-figure.foto-legenda figcaption {
+#cabecalho {
+  text-align:center;
+}
+
+.foto-legenda figcaption {
      opacity:0;
      position:absolute;
      top:0px;
@@ -62,8 +77,51 @@ figure.foto-legenda figcaption {
      padding: 10px;
      box-sizing: border-box;
   }
-figure.foto-legenda:hover figcaption {
+.foto-legenda:hover figcaption {
     opacity:1;
     transition: opacity 1.5s;
      
   }
+
+/* Formatação Menu */
+
+nav#menu {
+    display: block;
+  
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left:500px;
+
+}
+nav#menu li {
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  background-color: #dddddd 
+  trasition: backgroun-color 1s;
+}
+
+nav#menu li:hover{
+  background-color: #606060; 
+  }
+
+nav#menu h1  {
+  display: none;
+  
+}
+
+nav#menu a {
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+nav#menu a:hover {
+   color: #ffff;
+   text-decoration: underline;
+
+}

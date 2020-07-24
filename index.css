@@ -4,6 +4,10 @@
   .text-center {
     text-align: center;
   }
+  .text-right {
+    text-align: right;
+  }
+
 
   .menu-title {
     font-family: 'Fjalla One', sans-serif;
@@ -30,7 +34,14 @@ p{
 
 
     }  
+#interface {
+    background-color: #dddddd;
+    margin: 30px 50px;
+    box-shadow: 5px 10px rgb(0, 0, 0, 0.1);
+    padding: 10px;
 
+
+}
 button{
       background-color: #87DF0E;
       padding: 15px;
@@ -58,13 +69,20 @@ body {
   }
 
 .foto-legenda img {
-     width: 100%;
-    
+     width:100%;
+     
   }
 
+header#cabecalho {
+     border-bottom:1px #606060 dashed;
+     height: 150px;
+}   
+
 #cabecalho {
-  text-align:center;
+     text-align:center;
 }
+
+
 
 .foto-legenda figcaption {
      opacity:0;
